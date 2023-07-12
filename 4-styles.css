@@ -275,8 +275,33 @@ input, textarea {
   margin: 9% 25% 0;
 }
 
-
-
+/**Footer**/
+footer{
+    background-color: #071629;
+    
+}
+.foot{
+    display: flex;
+   
+    padding: 7% 0 7%;
+}
+.lg{
+    padding: 0 50% 0 0%;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+}
+.social-media img{
+    padding: 0 12%;
+    scale: 33%;
+}
+.last-text{
+    font-size: var(--font-size-small);
+    margin-bottom: 0;
+    color: var(--color-white);
+    text-align: center;
+}
   /* Media query for screens narrower than 480px */
   @media (max-width: 480px) {
     /**Header ...............**/
