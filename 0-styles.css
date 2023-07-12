@@ -420,12 +420,50 @@ footer{
 .pentagon h1{
     font-size: var(--line-height-base);
 }
+.pentagon p{
+    font-size: var(--font-size-small);
+}
+.result-text p {
+    padding-top: 3%;
+}
 .pentagon-group h1{
 margin: 0 25%;
-padding-top: 2%;
+padding-top: 12%;
 
 }
+.top-btn {
+    margin: 8% 27% 16%;
+}
+.section-what {
+    margin: 5% 11.25%;
+}
+.result-text {
+    margin: 0 16%;
+}
+.result-text p{
+    font-size: var(--font-size-medium);
+}
+.pentagon-group p {
+     margin-bottom: 0% ;
+     padding-bottom: 13%;
+}
+.forms {
+    margin: 0 15%;
+}
+.form-btn {
+    margin: 9% 29% 0;
+}
 
-
-/**Contact Us**/
+.foot{
+    display: block;
+}
+.lg{
+    padding: 0 16%;
+}
+.social-media img {
+    padding: 0;
+}
+.social-media{
+    justify-content: center;
+}
   }
