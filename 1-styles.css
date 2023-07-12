@@ -52,6 +52,7 @@ html {
 body{
     font-family: var(--font-family-base);
     font-weight: var(--font-weight-regular);
+    color: var(--color-primary);
     margin: 0;
 }
 button{
@@ -181,9 +182,33 @@ text-align: center;
   }
   
 /**What we do**/
+.section-what{
+    text-align: center;
+    margin: 5% 27.25%;
+}
+.what-title{
+    font-size: var(--font-size-x-large);
+}
+.what-paragraph{
+    font-size: var(--font-size-medium);
+    padding: 5%;
+}
+.group-icons{
+    display: flex;
+    margin: 10% 12%;
+    text-align: center;
+}
+.group-icons img{
+    padding: 0 25%;
+    scale: 200%;
+}
+.group-icons h5{
+    font-size: var(--line-height-base);
+}
 
-
-
+.svg-path {
+    fill: red;
+  }
 
   /* Media query for screens narrower than 480px */
   @media (max-width: 480px) {
@@ -228,4 +253,13 @@ text-align: center;
         margin: 8% 15% 16%;
     }
 /**What we do**/
+.group-icons{
+    display: block;
+}
+.icons{
+    margin-top: 23%;
+}
+.what-title{
+    margin-top: 23%;
+}
   }
